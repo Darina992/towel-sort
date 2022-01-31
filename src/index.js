@@ -14,7 +14,7 @@ function sortMatrix(matrix) {
     });
   }
   }
-  return result
+  return result.split(',')
 }
 
 module.exports = function towelSort (matrix) {
