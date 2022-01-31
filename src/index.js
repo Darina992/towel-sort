@@ -1,15 +1,15 @@
 
-function sortMatrix(arr) {
+function sortMatrix(matrix) {
   let result = [];
-  for(let i = 0;i < arr.length;i++){
+  for(let i = 0;i < matrix.length;i++){
     if(i % 2 !== 0){
-    arr[i] = arr[i].reverse();
-    console.log(arr[i]);
-    arr[i].forEach((item) => {
+    matrix[i] = matrix[i].reverse();
+    console.log(matrix[i]);
+    matrix[i].forEach((item) => {
       result.push(item);
     });
   } else {
-    arr[i].forEach((item) => {
+    matrix[i].forEach((item) => {
       result.push(item);
     });
   }
