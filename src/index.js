@@ -15,9 +15,9 @@ function sortMatrix(matrix) {
   }
   console.log(result)
   }
-  return `[${result}]`
+  return result
 }
 
 module.exports = function towelSort (matrix) {
-  return [];
+  return result;
 }
