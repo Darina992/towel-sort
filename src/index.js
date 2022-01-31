@@ -6,16 +6,16 @@ function sortMatrix(matrix) {
     matrix[i] = matrix[i].reverse();
     console.log(matrix[i]);
     matrix[i].forEach((item) => {
-      result.push(Number(item));
+      result.push(item);
     });
   } else {
     matrix[i].forEach((item) => {
-      result.push(Number(item));
+      result.push(item);
     });
   }
   console.log(result)
   }
-  return result
+  return `[${result}]`
 }
 
 module.exports = function towelSort (matrix) {
